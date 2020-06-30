@@ -119,7 +119,7 @@ tags:
 	此时即可用vlc或浏览器hls插件播放url视频
 
 ## GAT1400测试
-	上面初始化步骤时需要添加gat1400参数，详见[RESTAPI接口](https://debugger999.github.io/aiotc/doc/html/index.html)
+	上面初始化步骤时需要添加gat1400参数，详见[RESTAPI接口]
 	参考参数：
 	{
       "gat1400Params": {
