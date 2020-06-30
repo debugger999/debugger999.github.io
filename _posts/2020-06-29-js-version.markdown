@@ -18,7 +18,13 @@ tags:
 	操作系统: ubuntu 16.04
 
 ## 下载
+	安装git lfs,用于下载大文件
+	curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+	sudo apt-get install -y --allow-unauthenticated git-lfs
+
+	下载源码
 	git clone https://github.com/debugger999/aiotc.git
+	git lfs pull
 
 ## 编译
 	cd aiotc
