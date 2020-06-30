@@ -49,7 +49,7 @@ tags:
 	cd src
 	./aiotcProc
 
-## 初始化(以下命令皆可参考"RESTAPI接口")
+## 初始化(以下命令皆可参考[RESTAPI接口](https://debugger999.github.io/aiotc/doc/html/index.html))
 	方法: http post，推荐用postman，也可以用其他任何http client工具，如curl、python、java等等
 	url: http://ip:11706/system/init
 	参考参数(ip地址替换为自己的真实地址)：
@@ -119,7 +119,7 @@ tags:
 	此时即可用vlc或浏览器hls插件播放url视频
 
 ## GAT1400测试
-	上面初始化步骤时需要添加gat1400参数，详见"RESTAPI接口"
+	上面初始化步骤时需要添加gat1400参数，详见[RESTAPI接口](https://debugger999.github.io/aiotc/doc/html/index.html)
 	参考参数：
 	{
       "gat1400Params": {
